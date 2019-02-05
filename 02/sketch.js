@@ -174,9 +174,9 @@ function setup() {
   point(148,97);
   
   //lineas cuadro 9
-  line(138,120,138,140)
+  line(138,120,138,140);
   line(140,120,140,140);
-  line(142,120,142,140)
+  line(142,120,142,140);
   line(144,120,144,140);
   line(146,120,146,140);
   line(148,120,148,140);
@@ -222,7 +222,7 @@ function setup() {
   vertex(60,46);
   vertex(63,43);
   vertex(67,47);
-  endShape(CLOSE)
+  endShape(CLOSE);
   
   //triangulo blanco con cuadro amarillo andentro
   noStroke(0);
@@ -338,10 +338,7 @@ function setup() {
   beginShape(0);
   vertex(60,16);
   vertex(55,23);
-  vertex(
+  endShape(CLOSE);
   
 }
 
-function draw() {
-  
-}
