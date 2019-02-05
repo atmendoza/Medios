@@ -497,12 +497,12 @@ function setup() {
 		triangle(i+10, 30, i+20, 40, i + 20, 30, i+10, 30);
 	}
 	
-	fill(250);
+	fill(255);
 	//noStroke(0);
 	rect(80, 0, 80, 80);
 	rect(80,160, 80, 80);
 	
-	fill(250);
+	fill(255);
 	//noStroke(0);
 	rect(240, 0, 80, 80);
 }
