@@ -4,4 +4,4 @@ Ejhercicios de la clase de medios interactivos
 1. [Páina inicial](https://atmendoza.github.io/Meiosinteractivos/): Indice 
 2. [Forma y color](https://atmendoza.github.io/Medios/02/) / [Código](https://github.com/atmendoza/Medios/tree/master/02/sketch.js) 
 3. [Repetición](https://atmendoza.github.io/Medios/01/) / [Código](https://github.com/atmendoza/Medios/blob/master/01/sketch.js) 
-2. [Movimiento](https://github.com/atmendoza/Medios/tree/master/03) / [Código](https://atmendoza.github.io/Meiosinteractivos/blob/gh-pages/03/sketch.js) 
+2. [Movimiento](https://atmendoza.github.io/Medios/03/)/ [Código](https://github.com/atmendoza/Medios/blob/master/03/sketch.js) 
