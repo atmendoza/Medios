@@ -4,6 +4,7 @@ var soly = 0;
 var nubey = 0;
 var vent = 100;
 var carx = 0;
+var carx2 = 0;
 
 function setup() {
   createCanvas(800, 500);
@@ -22,26 +23,59 @@ function draw() {
   fill(100 + x / 2, 100 + x / 4, 0);
   soly = soly - 0.45
   ellipse(3 * width / 4, soly, 200, 200);
-
-
   // acera
   fill(146 + x / 12, 141 + x / 12, 140 + x / 12);
   rect(0, height / 2, width, height);
-  
+  //arbol
+  fill(120 + x / 12, 34 + x / 12, 22 + x / 12);
+  quad(400, 250, 405, 150, 425, 150, 430, 250);
+  fill(40 + x/6 , 100 + x / 6, 22 + x / 12);
+  ellipse(417, 120, 80, 80);
+  ellipse(385, 150, 30, 30);
+  ellipse(440, 150, 30, 30);
+  ellipse(410, 160, 25, 25);
+  ellipse(380, 110, 30, 30);
+  ellipse(450, 110, 30, 30);
+  ellipse(410, 80, 25, 25);
+  ellipse(425, 80, 15, 15);
+	ellipse(380, 128, 40, 40);
+  ellipse(450, 128, 40, 40);
+  ellipse(390, 90, 30, 30);
+  ellipse(440, 90, 30, 30);
+
+  //sombra arbol
+  fill(135 + x / 12, 132 + x / 12, 132 + x / 13);
+  quad(400, 250, 400 - x/12, 300 + x/12, 420 - x/12, 300 + x/12, 430, 250);
+  ellipse(410 - x/12, 290+ x/12, 20 + x/12, 5 + x/12);
    //edificio 1
  fill(35 + x/6);
   beginShape(0);
   quad(80, 250, 80, 50, 260, 50, 260, 250);
   endShape(CLOSE);
   
-  //ventanas
-  fill(145 + x/4, 234, 43);
-  stroke(0);
-  strokeWeight(0.8);
+  //sombra edificio 1
+  fill(135 + x / 12, 132 + x / 12, 132 + x / 13);
   beginShape(0);
-  vent = vent 
-  rect(vent,70, 140, 5);
-
+  quad(80, 250, 90 - x/6, 300 + x/12, 260 - x/12, 300 + x/12, 260, 250);
+  
+  //ventanas
+  fill(135 + x / 12, 132 + x / 12, 132 + x / 13);
+  noStroke(0);
+  beginShape(0);
+  
+  rect(100,70, 140, 5);
+  rect(100,80, 140, 5);
+  rect(100,90, 140, 5);
+  rect(100,100, 140, 5);
+  rect(100,110, 140, 5);
+  rect(100,120, 140, 5);
+  rect(100,130, 140, 5);
+  rect(100,140, 140, 5);
+  rect(100,150, 140, 5);
+  rect(100,160, 140, 5);
+  rect(100,170, 140, 5);
+  rect(100,180, 140, 5);
+  rect(100,190, 140, 5);
   
   //edificio 2
  fill(55 + x/6, 70, 70);
@@ -50,7 +84,50 @@ function draw() {
   quad(265, 250, 265, 40, 350, 40, 350, 250);
   endShape(CLOSE);
   
-  //ventanas edificio
+    //sombra edificio 2
+  fill(135 + x / 12, 132 + x / 12, 132 + x / 13);
+  beginShape(0);
+  quad(265, 250, 265 - x/12, 320 + x/12, 350 - x/12, 320 + x/12, 350, 250);
+  
+  //ventanas edificio 2
+  fill(135 + x / 12, 132 + x / 12, 132 + x / 13);
+  noStroke(0);
+  beginShape(0);
+  
+  rect(280,60, 10, 10);
+ 	rect(300,60, 10, 10);
+  rect(320,60, 10, 10);
+  rect(340,60, 10, 10);
+  
+  rect(280,80, 10, 10);
+  rect(300,80, 10, 10);
+  rect(320,80, 10, 10);
+  rect(340,80, 10, 10);
+  
+  rect(280,100, 10, 10);
+  rect(300,100, 10, 10);
+  rect(320,100, 10, 10);
+  rect(340,100, 10, 10);
+ 
+  rect(280,120, 10, 10);
+  rect(300,120, 10, 10);
+  rect(320,120, 10, 10);
+  rect(340,120, 10, 10);
+  
+  rect(280,140, 10, 10);
+  rect(300,140, 10, 10);
+  rect(320,140, 10, 10);
+  rect(340,140, 10, 10);
+
+  rect(280,160, 10, 10);
+  rect(300,160, 10, 10);
+  rect(320,160, 10, 10);
+  rect(340,160, 10, 10);
+  
+  rect(280,180, 10, 10);
+  rect(300,180, 10, 10);
+  rect(320,180, 10, 10);
+  rect(340,180, 10, 10);
   
   
   //nubes
@@ -118,9 +195,33 @@ function draw() {
   fill(200 - x/4);
   ellipse(160 + carx, 280, 15, 10);
   
+  //carro 2
+  beginShape(0);
+  fill(10 + x / 12, 56, 0);
+  carx2 = carx2 + 2.5
+  //parte de arriba
+  rect(40 + carx2, 250, 100, 45);
+  //parte de abajo
+  rect(25 + carx2, 280, 150, 45);
+  //ventanas carro2
+  fill(100 + x/2);
+  rect(50 + carx2, 255, 40, 20);
+  rect(100 + carx2, 255, 30, 20);
+  //ruedas carro2
+  fill(0);
+  //atras
+  ellipse(50 + carx2, 320, 30, 30);
+  //adelante
+  ellipse(140 + carx2, 320, 30, 30);
+  //interno
+  fill(40 + x);
+  ellipse(140 + carx2, 320, 10, 10);
+  ellipse(50 + carx2, 320, 10, 10);
  
   
-  
+  /*
+  quad(80 + x/12, 250 - x/12, 90 - x/12, 300 - x/12, 260 - x/12, 300 + x/12, 260 - x/12, 250 - x/12);
+  */
   
  
   //pierna de atrás
@@ -241,5 +342,12 @@ strokeWeight(5);
   if ((x > width) || (x < 0)) {
     direccion = direccion * -1;
   }
+  
+  if (frameCount < 320) {
+    if (frameCount % 3 == 0) {
+      //saveCanvas("miFlipbook"+frameCount, 'jpg');
+    }
+  }
+  print(frameCount);
   
 }
