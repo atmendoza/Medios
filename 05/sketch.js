@@ -113,10 +113,13 @@ function draw() {
   }
  
 
-/*
+
   function keyPressed() {
     if (key == 'r') {
-      x = 0;
+      x = x;
+	x2 = x2;
+	     y = y;
+	y2 = y2;
     }
-  }*/
+  }
 }
