@@ -13,15 +13,16 @@ var puntaje = 0;
 
 function setup() {
   createCanvas(600, 400);
-  // colores aleatorios
-  r = random(255);
-  g = random(255);
-  b = random(255);
+
   xa = random(0, width);
   ya = random(0, height);
 }
 
 function draw() {
+	  // colores aleatorios
+  r = random(255);
+  g = random(255);
+  b = random(255);
   background(puntaje);
   //bolita
   strokeWeight(2);
