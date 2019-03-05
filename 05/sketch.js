@@ -115,7 +115,7 @@ function draw() {
 
 
   function keyPressed() {
-    if (key == 'r') {
+    if (key == ' ') {
       x = x;
 	x2 = x2;
 	     y = y;
