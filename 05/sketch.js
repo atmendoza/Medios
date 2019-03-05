@@ -60,7 +60,7 @@ function draw() {
     g = random(255);
     b = random(255);
   }
-  //cambio de color bolita cuando cuadrado negro ne
+  //cambio de color bolita cuando cuadrado negro 
   print(dist(x2, y2, xa, ya));
   if (dist(x2, y2, xa, ya) < 30) {
     r = random(255);
