@@ -4,9 +4,8 @@ var img;
 
 function preload(){
 
-    datos = loadJSON("astros.json");
-  img = loadImage("atronauta2.png");
-  fnd = loadImage("fondo.jpg");
+    datos = loadJSON("artistas.json");
+
 }
 
 function setup() {
