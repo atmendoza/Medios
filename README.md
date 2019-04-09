@@ -10,5 +10,5 @@ Ejhercicios de la clase de medios interactivos
 7. [Tiempo](https://atmendoza.github.io/Medios/06/)/ [Código](https://github.com/atmendoza/Medios/blob/master/06/sketch.js)
 8. [Mezclador](https://atmendoza.github.io/Medios/07/)/ [Código](https://github.com/atmendoza/Medios/blob/master/0/sketch.js)
 9. [Especies](https://atmendoza.github.io/Medios/08/)/ [Código](https://github.com/atmendoza/Medios/blob/master/0/sketch.js)
-10. [Bases de Datos](https://atmendoza.github.io/Medios/09/)/ [Código](https://github.com/atmendoza/Medios/blob/master/09/sketch.js)
+10. [Bases de Datos](https://atmendoza.github.io/Medios/10/)/ [Código](https://github.com/atmendoza/Medios/blob/master/10/sketch.js)
 
